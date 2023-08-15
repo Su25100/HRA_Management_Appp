@@ -7,6 +7,7 @@ const { sequelize, HRA_App } = require("./models/db"); // Import sequelize from 
 
 const taskController = require("./controllers/taskController");
 
+
 //to connect the frontend with the backend server we use "cors" module to Remove " cross origin error "
 
 const cors = require('cors');

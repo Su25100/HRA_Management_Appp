@@ -1,7 +1,7 @@
 const { Tasks } = require("../models/db");
 
 
-
+//function to calculate HRA
 async function CreateHra(req, res) {
 
     try {
